@@ -40,7 +40,7 @@ const TabNavigator = () => {
 
 const styles = StyleSheet.create({
   tabBarStyle: {
-    backgroundColor: "#ff9133",
+    backgroundColor: "#8A2BE2",
     borderTopColor: "#ff9133",
   },
 });

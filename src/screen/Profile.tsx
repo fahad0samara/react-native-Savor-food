@@ -53,7 +53,9 @@ const Profile = () => {
           <Text style={styles.sectionTitle}>App Details</Text>
           <View style={styles.setting}>
             <Text style={styles.settingLabel}>App Name</Text>
-            <Text style={styles.settingValue}>Your App Name</Text>
+            <Text style={styles.settingValue}>
+              Savorfood
+            </Text>
           </View>
           <View style={styles.setting}>
             <Text style={styles.settingLabel}>Version</Text>
@@ -72,7 +74,7 @@ const Profile = () => {
           </View>
           <View style={styles.setting}>
             <Text style={styles.settingLabel}>Email</Text>
-            <Text style={styles.settingValue}>support@Shopsnap.com</Text>
+            <Text style={styles.settingValue}>support@Savorfood.com</Text>
           </View>
         </View>
         <View style={styles.section}>
@@ -94,7 +96,7 @@ const Profile = () => {
           <Text style={styles.sectionTitle}>About</Text>
           <View style={styles.setting}>
             <Text style={styles.settingLabel}>Company</Text>
-            <Text style={styles.settingValue}>ShopSnap</Text>
+            <Text style={styles.settingValue}>Savorfood</Text>
           </View>
           <View style={styles.setting}>
             <Text style={styles.settingLabel}>Location</Text>
@@ -102,7 +104,7 @@ const Profile = () => {
           </View>
           <View style={styles.setting}>
             <Text style={styles.settingLabel}>Website</Text>
-            <Text style={styles.settingValue}>www.shopsnap.com</Text>
+            <Text style={styles.settingValue}>www.Savorfood.com</Text>
           </View>
         </View>
       </ScrollView>
@@ -118,7 +120,7 @@ const Profile = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f9f9f9',
+    backgroundColor: '#F5F5F5',
     paddingHorizontal: 20,
     paddingVertical: 20,
   },
@@ -161,7 +163,7 @@ const styles = StyleSheet.create({
     textDecorationLine: 'underline',
   },
   logoutButton: {
-    backgroundColor: '#ff9133',
+    backgroundColor: '#8A2BE2',
     paddingVertical: 15,
     alignItems: 'center',
     borderRadius: 10,
