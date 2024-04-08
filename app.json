@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Savor-food",
+    "slug": "Savor-food",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Savorfood.png",
+    "userInterfaceStyle": "automatic", 
+    "splash": {
+      "image": "./assets/Savorfood.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fbeedd"
+    }, 
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Savorfood.png",
+        "backgroundColor": "#fbeedd" 
+      }
+    },
+    "web": {
+      "favicon": "./assets/Savorfood.png"
+    }
+  }
+}
