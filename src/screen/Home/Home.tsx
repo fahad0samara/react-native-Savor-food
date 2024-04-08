@@ -18,7 +18,7 @@ import API_URL from "../../apiConfig";
 import { products } from "../../Type";
 import Category from "./components/Category";
 import ProductsCard from "./components/ProductsCard";
-import CouponCards from "./components/CouponCards";
+import FoodOffers from "./components/FoodOffers";
 
 const Home: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState("Electronics");
@@ -109,7 +109,7 @@ const Home: React.FC = () => {
             Check out our latest offers
           </Text>
 
-          <CouponCards />
+          <FoodOffers />
         </View>
 
         <View style={styles.categoriesContainer}>
