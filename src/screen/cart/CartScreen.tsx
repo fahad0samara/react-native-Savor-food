@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
   },
   currency: {
     fontSize: 16,
-    color: "#F59E0B",
+    color: "#8A2BE2",
     fontWeight: "bold",
     marginRight: 3,
   },
@@ -294,7 +294,7 @@ const styles = StyleSheet.create({
   },
 
   quantityButtonIN: {
-    backgroundColor: "#F59E0B",
+    backgroundColor: "#8A2BE2",
     borderRadius: 50,
     padding: 5,
     width: 30,
@@ -338,7 +338,7 @@ const styles = StyleSheet.create({
     marginVertical: 15,
   },
   checkoutButton: {
-    backgroundColor: "#F59E0B",
+    backgroundColor: "#8A2BE2",
     padding: 10,
     borderRadius: 10,
     alignItems: "center",

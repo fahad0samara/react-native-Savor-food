@@ -104,9 +104,12 @@ const Home: React.FC = () => {
         </View>
 
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Coupons</Text>
+          <Text style={styles.sectionTitle}>
+            Food Offers
+
+          </Text>
           <Text style={styles.sectionSubtitle}>
-            Check out our latest offers
+            Check out the latest food offers
           </Text>
 
           <FoodOffers />
