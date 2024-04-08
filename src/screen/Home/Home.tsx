@@ -90,12 +90,12 @@ const Home: React.FC = () => {
             <Text
               style={{
                 fontSize: 18,
-                color: "#F59E0B",
+                color: "#8A2BE2",
                 fontWeight: "bold",
                 marginBottom: 5,
               }}
             >
-              Let's find your product!
+              what are you what to eat today?
             </Text>
           </View>
           <View style={styles.headerIcons}>
@@ -159,7 +159,7 @@ const Home: React.FC = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fbeedd",
+    backgroundColor: "#F5F5F5",
     paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
   },
   container1: {
@@ -181,7 +181,7 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   titleText: {
-    color: "#6B7280",
+    color: "#8A2BE2",
     fontSize: 32,
   },
   section: {
