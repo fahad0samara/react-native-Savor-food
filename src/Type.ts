@@ -9,6 +9,13 @@ export interface Product {
   discountPercentage: number;
   stockQuantity: number;
   isNewProduct: boolean;
+  ingredients: string[];
+  servingSize: string;
+  calories: number;
+  cookingInstructions: string;
+  dietaryRestrictions: string[];
+
+
 }
 
 
