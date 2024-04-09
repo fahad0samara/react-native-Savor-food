@@ -2,6 +2,24 @@
 
 Savor-food is a mobile application for food enthusiasts, offering a delightful shopping experience for a variety of delicious products. Whether you're craving fresh ingredients for a home-cooked meal or looking to explore new culinary delights, Savor-food has you covered.
 
+### Screenshots:
+
+
+<table>
+  <tr>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/2106c2f4-abb7-4331-9aa8-2c534123cc2e" alt="Image 1"></td>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/543565f9-973e-4b0b-9da5-24f970122342" alt="Image 2"></td>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/461d2fe8-3b76-44bd-a0a6-9a7f3fa9d33e" alt="Image 3"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/0208783c-025a-460d-a75b-905063e6d438" alt="Image 4"></td>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/afd93447-00b7-498d-b907-6da2c6c57d3a" alt="Image 5"></td>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/b6c6ff0f-5730-4681-8a22-58a5a8c6bc15" alt="Image 6"></td>
+  </tr>
+</table>
+
+
+
 ### Features:
 - Browse a wide range of high-quality food products.
 - View detailed descriptions and images of each product.
@@ -16,9 +34,7 @@ Savor-food is a mobile application for food enthusiasts, offering a delightful s
 - Expo
 - React Navigation
 
-### Screenshots:
-![Screenshot 1](/path/to/screenshot1.png)
-![Screenshot 2](/path/to/screenshot2.png)
+
 
 ### Installation:
 1. Clone the repository.
