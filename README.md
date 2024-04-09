@@ -14,7 +14,11 @@ Savor-food is a mobile application for food enthusiasts, offering a delightful s
   <tr>
     <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/0208783c-025a-460d-a75b-905063e6d438" alt="Image 4"></td>
     <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/afd93447-00b7-498d-b907-6da2c6c57d3a" alt="Image 5"></td>
-    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/b6c6ff0f-5730-4681-8a22-58a5a8c6bc15" alt="Image 6"></td>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/302eb049-c114-4a4d-b241-e4f863675dbe" alt="Image 6"></td>
+  </tr>
+    <tr>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/b6c6ff0f-5730-4681-8a22-58a5a8c6bc15" alt="Image 4"></td>
+    <td><img src="https://github.com/fahad0samara/react-native-Savor-food/assets/90055525/8b698121-ca3f-4609-b1de-dd1acc1b2bcd" alt="Image 5"></td>
   </tr>
 </table>
 
