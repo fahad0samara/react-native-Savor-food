@@ -2,20 +2,24 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This section provides information about the versions of the Savor-food app that currently receive security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version           | Supported          |
+| ----------------- | ------------------ |
+| React Native v0.73 | :white_check_mark: |
+| React Native v0.72 | :white_check_mark: |
+| React Native v0.71 | :white_check_mark: |
+| React Native v0.70 | :x:                |
+| React Native v< 0.70   | :x:                |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security vulnerability within Savor-food, please send an email to the development team at security@savor-food.com. All security vulnerabilities will be promptly addressed.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+When reporting a vulnerability, please include detailed information such as:
+
+- Description of the vulnerability
+- Steps to reproduce the vulnerability
+- Any potential impact or risks associated with the vulnerability
+
+We take security seriously and are committed to ensuring the safety and integrity of our app. We appreciate your help in identifying and resolving security issues.
