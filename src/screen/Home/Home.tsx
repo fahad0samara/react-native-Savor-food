@@ -21,65 +21,37 @@ import ProductsCard from "./components/ProductsCard";
 import FoodOffers from "./components/FoodOffers";
 
 const Home: React.FC = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Electronics");
-  const [data, setData] = useState<{ products: products[] }>({ products: [] });
+  const [selectedCategory, setSelectedCategory] = useState("Breakfast")
+  const [data, setData] = useState<any[]>([]);
+
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchData = async () => {
-    try {
-      const response = await axios.get<{ products: products[] }>(
-        `${API_URL}/products/all`
-      );
-      setData(response.data);
-    } catch (error) {
-      console.log("Error fetching data:", error);
-      if (axios.isAxiosError(error)) {
-        if (error.response) {
-          // Server responded with a status code outside of 2xx
-          setError(`Server responded with status ${error.response.status}`);
-          console.log(error.response.data);
-        } else if (error.request) {
-          // Request was made but no response was received
-          setError("Request made but no response received");
-          console.log(error.request);
-        } else {
-          // Something happened in setting up the request
-          setError("Error setting up the request");
-          console.log("Error", error.message);
-        }
-      } else {
-        // Network error or other non-Axios error
-        setError("Network Error: Please check your internet connection");
-        console.log(error);
-      }
-    } finally {
-      setLoading(false);
-    }
-  };
-
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get<any[]>(`${API_URL}/products/all`);
+        setData(response.data);
+
+      } catch (error) {
+        setError(error.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
     fetchData();
   }, []);
+
+    
+
 
   const handleCategoryPress = (title: string) => {
     setSelectedCategory(title);
   };
 
-  const filteredBikes = data.products.filter((product) =>
-    product.categories.some((cat) => cat.name === selectedCategory)
-  );
 
-  const uniqueCategories =
-    data.products.length > 0
-      ? Array.from(
-          new Set(
-            data.products
-              .map((product) => product.categories.map((cat) => cat.name))
-              .flat()
-          )
-        )
-      : [];
+
 
   return (
     <SafeAreaView style={styles.container}>
@@ -118,7 +90,13 @@ const Home: React.FC = () => {
         <View style={styles.categoriesContainer}>
           <Text style={styles.categoriesTitle}>Categories</Text>
           <FlatList
-            data={uniqueCategories}
+            data={
+              data
+                .map((item) => item.categories.map((category: { name: string }) => category.name))
+                .flat()
+                .filter((value, index, self) => self.indexOf(value) === index)                  
+            
+            }
             renderItem={({ item }) => (
               <Category
                 item={{ name: item }}
@@ -145,7 +123,13 @@ const Home: React.FC = () => {
         ) : (
           <View style={styles.bicycleListContainer}>
             <FlatList
-              data={filteredBikes}
+                data={data.filter((item) =>
+                  item.categories.some(
+                    (category: { name: string }) => category.name === selectedCategory
+                  )
+                )}
+
+
               renderItem={({ item }) => <ProductsCard product={item} />}
               keyExtractor={(item) => item._id}
               style={styles.bicycleList}

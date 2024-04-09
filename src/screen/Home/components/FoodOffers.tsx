@@ -12,7 +12,7 @@ const foodOffers = [
     id: 2,
     title: "Family Feast Deal",
     description: "Treat your family to a hearty feast with our special offer!",
-    image: require("../../../../assets/heder2.jpg"),
+    image: require("../../../../assets/heder0.png"),
   },
 ];
 

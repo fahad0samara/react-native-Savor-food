@@ -1,3 +1,3 @@
-const API_URL = 'https://e-commerce0.azurewebsites.net';
+const API_URL = 'https://savorapi.azurewebsites.net';
 
 export default API_URL;
