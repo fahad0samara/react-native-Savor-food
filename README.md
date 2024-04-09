@@ -21,11 +21,13 @@ Savor-food is a mobile application for food enthusiasts, offering a delightful s
 
 
 ### Features:
-- Browse a wide range of high-quality food products.
-- View detailed descriptions and images of each product.
-- Add items to your cart with ease.
-- Enjoy special discounts and offers on selected items.
-- Stay updated with the latest additions and promotions.
+- Browse through a diverse range of food products, including snacks, beverages, and meals.
+- View detailed product descriptions, including ingredients, nutritional information, and cooking instructions.
+- Take advantage of special offers, discounts, and new product promotions.
+- Add products to your cart and seamlessly complete your purchase with our intuitive checkout process.
+- Keep track of your favorite products and easily reorder them for added convenience.
+- Receive notifications about new products, promotions, and order updates to stay informed.
+
 
 ### Technologies Used:
 - React Native
